@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+}
+.sign-in{
+    width: 65px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 32px;
+    right: 50px;
+}
+.Menu{
+    font-size: 1.4rem;
+    list-style: none;
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+.logo{
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+#langauge{
+    position: absolute;
+    top: 30px;
+    right: 125px;
+    width: 67px;
+    border-radius: 5px;
+    height: 25px;
+    border-style: 1px solid ;
+}
+body{
+    font-family: "Fira Sans", sans-serif;
+    background-color: #222;;
+}
+.content{
+    color: rgb(240, 232, 232);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.get{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    width: 200px;
+}
+input{
+    width: 200px;
+}
+.first{
+    background: url(http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg);
+    height: 700px;
+}
+.second{
+    background: url(./43e0db2f-fea0-4308-bfb9-09f2a88f6ee4_what_is_netflix_1_en.png);
+    height: 500px;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+}
+.second-content{
+    color: rgb(240, 232, 232);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    height: 200px;
+    width: 500px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+.third{
+    height: 500px;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 1300px;
+    overflow: hidden;
+}
+.third-content{
+    color: rgb(240, 232, 232);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    height: 200px;
+    width: 500px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;    
+}
+.fourth{
+    height: 500px;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 1800px;
+    overflow: hidden;
+}
+
+.fifth{
+    height: 500px;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 2300px;
+    overflow: hidden; 
+}
+.fifth-img{
+    padding: 50px;
+    width: 500px;
+    height: 700px;
+}
+.six{
+    height: 500px;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 3300px;
+    overflow: hidden; 
+}
+@media (max-width : 750px){
+    .content{
+        width: 300px;
+        font-size: 20px;
+    }
+    .get{
+        border-radius: 5px;
+        padding: 5px;
+        width: 250px;
+    }
+    input{
+        border-radius: 5px;
+        padding: 5px;
+        width: 250px;
+    }
+    .second-content{
+        width: 300px;
+        font-size: 20px;       
+    }
+    .second{
+        padding: 0px;
+    }
+    .third-content{
+        width: 300px;
+        font-size: 20px;
+        padding: 0px;
+    }
+    .fifth-img{
+        width: 300px;
+        height: 300px;
+    }
+}
